@@ -1,4 +1,3 @@
-
 import { Component as Background } from "../ui/raycast-animated-blue-background"
 import { motion } from "motion/react"
 

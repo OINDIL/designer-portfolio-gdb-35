@@ -5,10 +5,9 @@ interface ProjectsCardProps {
     title: string
     description: string
     image: string
-    className?: string | null
 }
 
-function ProjectsCard({ title, description, image, className }: ProjectsCardProps) {
+function ProjectsCard({ title, description, image }: ProjectsCardProps) {
     return (
         <div className={`border border-neutral-800 p-3 rounded-lg backdrop-blur-3xl space-y-4 hover:scale-105 transition ease-linear duration-100 h-full`}>
             <img src={image} alt={title} className="rounded-lg w-full h-56 object-cover" />

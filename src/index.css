@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 
 @import "tailwindcss";
 @import "tw-animate-css";
@@ -8,6 +9,8 @@
 
 @theme {
   --font-urbanist: "Urbanist", sans-serif;
+
+  --font-bbh: "BBH Sans Bartle", sans-serif;
 
   --font-asimovian: "Asimovian", sans-serif;
 }

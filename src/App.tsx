@@ -9,10 +9,7 @@ function App() {
       <ReactLenis root options={{ lerp: 1, duration: 2, orientation: "horizontal" }} className="overflow-x-scroll">
         <div className="flex">
           <Hero />
-
           <About />
-
-
           <Projects />
         </div>
       </ReactLenis>

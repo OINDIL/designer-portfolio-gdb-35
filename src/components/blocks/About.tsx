@@ -72,8 +72,6 @@ function About() {
 
             <div className="absolute bottom-5 right-5 z-10 flex gap-5 items-center">
                 <h1 className="text-3xl text-black font-light uppercase border-r pr-5 border-black">Tech Stack</h1>
-
-
                 <img src={expressJSIcon} alt="" className="size-10" />
                 <img src={nextJSIcon} alt="" className="size-10" />
                 <img src={TailwindCSSIcon} alt="" className="size-10 grayscale-100 brightness-0" />
