@@ -6,7 +6,7 @@ function Hero() {
 
         <div className="relative min-h-screen">
             <div className="absolute text-white top-5 left-5 z-10">
-                <motion.h1 className="text-9xl font-bold uppercase"
+                <motion.h1 className="text-9xl font-bold uppercase font-bbh"
                     initial={{
                         opacity: 0,
                         y: 50
@@ -22,7 +22,7 @@ function Hero() {
                     }}
                 >Oindil</motion.h1>
 
-                <motion.p className="text-white z-10 max-w-md font-asimovian"
+                <motion.p className="text-white z-10 max-w-4xl"
 
 
                     initial={{
@@ -45,7 +45,7 @@ function Hero() {
             </div>
 
             <motion.h1
-                className="absolute text-white bottom-5 right-5 z-10 text-9xl font-bold uppercase"
+                className="absolute text-white bottom-5 right-5 z-10 text-9xl font-bold uppercase font-bbh"
                 initial={{
                     opacity: 0,
                     y: 50

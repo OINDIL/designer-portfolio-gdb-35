@@ -2,6 +2,7 @@ import ReactLenis from "lenis/react"
 import Hero from "./components/blocks/Hero"
 import About from "./components/blocks/About"
 import Projects from "./components/blocks/Projects"
+import ContactMe from "./components/blocks/ContactMe"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <Hero />
           <About />
           <Projects />
+          <ContactMe />
         </div>
       </ReactLenis>
     </div>

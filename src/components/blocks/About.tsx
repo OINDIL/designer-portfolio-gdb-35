@@ -18,7 +18,7 @@ function About() {
                 <img src="https://pbs.twimg.com/profile_images/1931934848681115650/eBGhuKj5_400x400.jpg" alt="dummy" className="rounded-lg" />
                 <div className="text-white z-10 px-5">
 
-                    <motion.h1 className="text-9xl font-bold uppercase"
+                    <motion.h1 className="text-9xl font-bold uppercase font-bbh"
                         initial={{
                             opacity: 0,
                             y: 50
@@ -34,7 +34,7 @@ function About() {
                         }}
                     >About</motion.h1>
 
-                    <motion.p className="text-white z-10 max-w-md font-asimovian"
+                    <motion.p className="text-white z-10 max-w-4xl"
 
 
                         initial={{
@@ -55,7 +55,7 @@ function About() {
                     </motion.p>
 
 
-                    <a href="https://docs.google.com/document/d/1Ng3K1p5S-FM3AF5cngoX5x0GCiuV253yd41N2WRiqGs/edit?usp=sharing" className="font-asimovian underline underline-offset-2 hover:underline-offset-4 transition-all ease-linear duration-100 mt-10 flex items-center gap-0.5 group" target="_blank">View Resume
+                    <a href="https://docs.google.com/document/d/1Ng3K1p5S-FM3AF5cngoX5x0GCiuV253yd41N2WRiqGs/edit?usp=sharing" className="underline underline-offset-2 hover:underline-offset-4 transition-all ease-linear duration-100 mt-10 flex items-center gap-0.5 group" target="_blank">View Resume
 
 
                         <ArrowRightIcon className="size-5 -rotate-45 group-hover:rotate-0 transition ease-linear duration-100" />
