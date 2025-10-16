@@ -10,7 +10,7 @@ const larnityImages = [
 function Projects_2() {
     return (
         <div className="min-h-screen min-w-[115vw] bg-gradient-to-tl from-[#e6e853] to-black to-60% text-white pt-20 relative">
-            <div className="absolute text-white top-5 left-5 z-10">
+            <div className="absolute text-white top-20 left-5 z-10">
                 <motion.h1 className="text-9xl font-bold uppercase font-bbh"
                     initial={{
                         opacity: 0,

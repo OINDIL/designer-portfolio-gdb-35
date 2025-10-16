@@ -29,7 +29,7 @@ function ContactMe() {
                 <div className="flex gap-14 mt-14">
                     {
                         icons.map((icon, index) => (
-                            <img src={icon} alt="icon" key={index} className="size-10 grayscale invert ml-2" />
+                            <img src={icon} alt="icon" key={index} className="size-10 grayscale brightness-100 invert ml-2" />
                         ))
                     }
                 </div>

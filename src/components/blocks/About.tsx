@@ -13,10 +13,9 @@ import { ArrowRightIcon } from "lucide-react"
 function About() {
     return (
         <div className='relative min-h-screen bg-gradient-to-tl from-[#53A1E8] to-black to-60% text-white' id="about">
-
-            <div className="flex p-5">
+            <div className="flex p-5 mt-20">
                 <img src="https://pbs.twimg.com/profile_images/1931934848681115650/eBGhuKj5_400x400.jpg" alt="dummy" className="rounded-lg" />
-                <div className="text-white z-10 px-5">
+                <div className="text-white px-5">
 
                     <motion.h1 className="text-9xl font-bold uppercase font-bbh"
                         initial={{
@@ -34,7 +33,7 @@ function About() {
                         }}
                     >About</motion.h1>
 
-                    <motion.p className="text-white z-10 max-w-4xl"
+                    <motion.p className="text-white z-10 max-w-4xl font-sans"
 
 
                         initial={{
@@ -71,7 +70,7 @@ function About() {
 
 
             <div className="absolute bottom-5 right-5 z-10 flex gap-5 items-center">
-                <h1 className="text-3xl text-black font-light uppercase border-r pr-5 border-black">Tech Stack</h1>
+                <h1 className="text-3xl text-white font-light uppercase border-r pr-5 border-white font-bbh">Tech Stack</h1>
                 <img src={expressJSIcon} alt="" className="size-10" />
                 <img src={nextJSIcon} alt="" className="size-10" />
                 <img src={TailwindCSSIcon} alt="" className="size-10 grayscale-100 brightness-0" />
